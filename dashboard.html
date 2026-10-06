@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Hub | Dashboard</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="sidebar">
+        <div class="logo">
+            <h2>Student Hub</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html" class="active"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-book-open"></i> Courses</a></li>
+                <li><a href="schedule.html"><i class="fa-solid fa-calendar-days"></i> Schedule</a></li>
+                <li><a href="assignments.html"><i class="fa-solid fa-file-lines"></i> Assignments</a></li>
+                <li><a href="resources.html"><i class="fa-solid fa-folder-open"></i> Resources</a></li>
+                <li><a href="events.html"><i class="fa-solid fa-calendar-check"></i> Events</a></li>
+                <li><a href="profile.html"><i class="fa-solid fa-user"></i> Profile</a></li>
+                <li><a href="login.html"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- ================= MAIN ================= -->
+    <main class="dashboard">
+        <!-- TOP BAR -->
+        <header class="topbar">
+            <div>
+                <h1>Dashboard</h1>
+                <p>Welcome back, Manya</p>
+            </div>
+            <div class="profile-short">
+                <img src="" alt="Profile">
+                <span>Manya Patel</span>
+            </div>
+        </header>
+        <!-- QUICK STATS -->
+        <section class="stats">
+            <div class="stat-card">
+                <i class="fa-solid fa-book-open"></i>
+                <h2>06</h2>
+                <p>Courses</p>
+            </div>
+            <div class="stat-card">
+                <i class="fa-solid fa-file-circle-check"></i>
+                <h2>12</h2>
+                <p>Assignments</p>
+            </div>
+            <div class="stat-card">
+                <i class="fa-solid fa-calendar-check"></i>
+                <h2>08</h2>
+                <p>Events</p>
+            </div>
+            <div class="stat-card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>85%</h2>
+                <p>Attendance</p>
+            </div>
+        </section>
+        <!-- ANNOUNCEMENTS -->
+        <section class="announcements">
+            <h2>Latest Announcements</h2>
+            <article>
+                <h3>Semester Examination</h3>
+                <p>Examinations will begin from 15 October.</p>
+            </article>
+            <article>
+                <h3>Hackathon Registration</h3>
+                <p>Register before 10 September.</p>
+            </article>
+            <article>
+                <h3>Holiday Notice</h3>
+                <p>College will remain closed on Independence Day.</p>
+            </article>
+        </section>
+        <!-- UPCOMING CLASSES -->
+        <section class="classes">
+            <h2>Today's Classes</h2>
+            <table>
+                <tr>
+                    <th>Time</th>
+                    <th>Subject</th>
+                    <th>Room</th>
+                </tr>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>Data Structures</td>
+                    <td>B-204</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>Web Development</td>
+                    <td>Lab-3</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td>Database Management</td>
+                    <td>C-101</td>
+                </tr>
+            </table>
+        </section>
+        <!-- ASSIGNMENTS -->
+        <section class="recent-assignment">
+            <h2>Pending Assignments</h2>
+            <ul>
+                <li> HTML Project - Due Tomorrow</li>
+                <li> Data Structure Assignment - 3 Days Left</li>
+                <li> Java Practical - 5 Days Left</li>
+                <li>Database Lab Report - 1 Week Left</li>
+            </ul>
+        </section>
+        <!-- QUICK ACCESS -->
+        <section class="quick-access">
+            <h2>Quick Access</h2>
+            <div class="quick-buttons">
+                <a href="courses.html">My Courses</a>
+                <a href="assignments.html">Assignments</a>
+                <a href="resources.html">Resources</a>
+                <a href="events.html">Events</a>
+            </div>
+        </section>
+        <!-- UPCOMING EVENTS -->
+        <section class="events-preview">
+            <h2>Upcoming Events</h2>
+            <div class="event-card">
+                <img src="" alt="Hackathon">
+                <h3>Annual Hackathon</h3>
+                <p>15 September 2026</p>
+            </div>
+            <div class="event-card">
+                <img src="" alt="Workshop">
+                <h3>AI Workshop</h3>
+                <p>22 September 2026</p>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer>
+            <p>2026 Student Hub | Dashboard</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

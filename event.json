@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "title": "Annual Hackathon 2026",
+        "date": "2026-09-15",
+        "time": "09:00 AM",
+        "venue": "Main Auditorium",
+        "category": "Technology",
+        "description": "Participate in a 24-hour coding challenge and showcase your innovative ideas."
+    },
+    {
+        "id": 2,
+        "title": "AI and Machine Learning Workshop",
+        "date": "2026-09-22",
+        "time": "10:00 AM",
+        "venue": "Seminar Hall",
+        "category": "Technology",
+        "description": "Learn modern artificial intelligence and machine learning concepts from experts."
+    },
+    {
+        "id": 3,
+        "title": "Cyber Security Seminar",
+        "date": "2026-10-05",
+        "time": "11:00 AM",
+        "venue": "Conference Room",
+        "category": "Technology",
+        "description": "Explore current cybersecurity trends, threats and best security practices."
+    },
+    {
+        "id": 4,
+        "title": "Sports Fest 2026",
+        "date": "2026-10-12",
+        "time": "08:00 AM",
+        "venue": "Sports Ground",
+        "category": "Sports",
+        "description": "Participate in various sports competitions and exciting campus activities."
+    },
+    {
+        "id": 5,
+        "title": "Web Development Workshop",
+        "date": "2026-10-18",
+        "time": "10:30 AM",
+        "venue": "Computer Lab 1",
+        "category": "Technology",
+        "description": "Learn HTML, CSS and JavaScript by building a modern web application."
+    },
+    {
+        "id": 6,
+        "title": "Cultural Fest 2026",
+        "date": "2026-10-25",
+        "time": "05:00 PM",
+        "venue": "College Ground",
+        "category": "Cultural",
+        "description": "Enjoy music, dance, drama and cultural performances by students."
+    },
+    {
+        "id": 7,
+        "title": "Career Guidance Session",
+        "date": "2026-11-02",
+        "time": "02:00 PM",
+        "venue": "Seminar Hall",
+        "category": "Career",
+        "description": "Get guidance about career opportunities, skills and professional development."
+    },
+    {
+        "id": 8,
+        "title": "Coding Competition",
+        "date": "2026-11-10",
+        "time": "09:30 AM",
+        "venue": "Computer Lab 2",
+        "category": "Technology",
+        "description": "Test your programming skills by solving challenging coding problems."
+    },
+    {
+        "id": 9,
+        "title": "Photography Exhibition",
+        "date": "2026-11-16",
+        "time": "11:00 AM",
+        "venue": "Art Gallery",
+        "category": "Cultural",
+        "description": "Explore creative photography projects created by students."
+    },
+    {
+        "id": 10,
+        "title": "Entrepreneurship Talk",
+        "date": "2026-11-22",
+        "time": "03:00 PM",
+        "venue": "Main Auditorium",
+        "category": "Career",
+        "description": "Learn about startups, entrepreneurship and building innovative businesses."
+    },
+    {
+        "id": 11,
+        "title": "Tree Plantation Drive",
+        "date": "2026-12-01",
+        "time": "08:30 AM",
+        "venue": "College Garden",
+        "category": "Social",
+        "description": "Join students and faculty in promoting a greener and healthier campus."
+    },
+    {
+        "id": 12,
+        "title": "Database Management Workshop",
+        "date": "2026-12-08",
+        "time": "10:00 AM",
+        "venue": "Computer Lab 3",
+        "category": "Technology",
+        "description": "Understand SQL, database design and basic database management concepts."
+    },
+    {
+        "id": 13,
+        "title": "Annual Sports Meet",
+        "date": "2026-12-15",
+        "time": "08:00 AM",
+        "venue": "Sports Ground",
+        "category": "Sports",
+        "description": "Compete in athletics, cricket, football and other sporting activities."
+    },
+    {
+        "id": 14,
+        "title": "Student Photography Workshop",
+        "date": "2026-12-20",
+        "time": "01:00 PM",
+        "venue": "Media Room",
+        "category": "Cultural",
+        "description": "Learn photography techniques, composition and creative editing."
+    },
+    {
+        "id": 15,
+        "title": "Final Year Project Exhibition",
+        "date": "2026-12-28",
+        "time": "10:00 AM",
+        "venue": "Exhibition Hall",
+        "category": "Academic",
+        "description": "Explore innovative final-year projects developed by senior students."
+    }
+]

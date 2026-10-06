@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Hub | Events</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <h2>Student Hub</h2>
+
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fa-solid fa-house"></i>
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-book-open"></i>
+                        Courses
+                    </a>
+                </li>
+
+                <li>
+                    <a href="schedule.html">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Schedule
+                    </a>
+                </li>
+
+                <li>
+                    <a href="assignments.html">
+                        <i class="fa-solid fa-file-lines"></i>
+                        Assignments
+                    </a>
+                </li>
+
+                <li>
+                    <a href="resources.html">
+                        <i class="fa-solid fa-folder-open"></i>
+                        Resources
+                    </a>
+                </li>
+
+                <li>
+                    <a href="events.html" class="active">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        Events
+                    </a>
+                </li>
+
+                <li>
+                    <a href="profile.html">
+                        <i class="fa-solid fa-user"></i>
+                        Profile
+                    </a>
+                </li>
+
+                <li>
+                    <a href="login.html">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        Logout
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main class="dashboard">
+
+        <!-- Header -->
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>Campus Events</h1>
+
+                <p>
+                    Stay updated with upcoming activities and workshops.
+                </p>
+
+            </div>
+
+        </header>
+
+
+        <!-- ================= SEARCH / FILTER / SORT ================= -->
+
+        <section class="event-controls">
+
+            <!-- Search -->
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search events..."
+                >
+
+            </div>
+
+
+            <!-- Category Filter -->
+
+            <select id="categoryFilter">
+
+                <option value="all">
+                    All Categories
+                </option>
+
+                <option value="Technology">
+                    Technology
+                </option>
+
+                <option value="Sports">
+                    Sports
+                </option>
+
+                <option value="Cultural">
+                    Cultural
+                </option>
+
+                <option value="Career">
+                    Career
+                </option>
+
+                <option value="Social">
+                    Social
+                </option>
+
+                <option value="Academic">
+                    Academic
+                </option>
+
+            </select>
+
+
+            <!-- Sort -->
+
+            <select id="sortSelect">
+
+                <option value="date-asc">
+                    Date: Oldest First
+                </option>
+
+                <option value="date-desc">
+                    Date: Newest First
+                </option>
+
+                <option value="title-asc">
+                    Title: A-Z
+                </option>
+
+                <option value="title-desc">
+                    Title: Z-A
+                </option>
+
+            </select>
+
+        </section>
+
+
+        <!-- ================= LOADING ================= -->
+
+        <div id="loading" class="loading">
+
+            <i class="fa-solid fa-spinner fa-spin"></i>
+
+            <span>Loading events...</span>
+
+        </div>
+
+
+        <!-- ================= ERROR ================= -->
+
+        <div id="errorMessage" class="error-message">
+
+            <i class="fa-solid fa-circle-exclamation"></i>
+
+            <span>
+                Unable to load events. Please try again.
+            </span>
+
+        </div>
+
+
+        <!-- ================= DYNAMIC EVENT GRID ================= -->
+
+        <section
+            id="eventContainer"
+            class="event-grid">
+
+        </section>
+
+
+        <!-- ================= NO RESULTS ================= -->
+
+        <div id="noResults" class="no-results">
+
+            <i class="fa-solid fa-calendar-xmark"></i>
+
+            <h3>No Events Found</h3>
+
+            <p>
+                Try changing your search or filter.
+            </p>
+
+        </div>
+
+
+        <!-- ================= PAGINATION ================= -->
+
+        <div
+            id="pagination"
+            class="pagination">
+
+        </div>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer>
+
+            <p>
+                © 2026 Student Hub | Events
+            </p>
+
+        </footer>
+
+    </main>
+
+
+   <script src="js/events.js"></script>
+
+
+</body>
+
+</html>
