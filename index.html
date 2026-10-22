@@ -3,123 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Student Hub | Home</title>
-  
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css"> 
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <!-- ============== HEADER ============-->
+
+    <!-- Header and Navigation -->
     <header>
         <div class="logo">
             <span>Student Hub</span>
         </div>
+
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="signup.php">Sign Up</a></li>
             </ul>
         </nav>
     </header>
-    <!-- ================= HERO SECTION ================= -->
+
+    <!-- Hero Section -->
     <section class="hero">
+
         <div class="hero-text">
             <h1>Your Gateway <br> to Campus Life</h1>
-            <p>Everything you need as a student in one place.
+
+            <p>
+                Everything you need as a student in one place.
                 Access courses, assignments, schedules,
-                study resources and campus events with ease.</p>
+                study resources and campus events with ease.
+            </p>
+
             <div class="buttons">
-                <a href="signup.html" class="btn-primary">Get Started</a>
-                <a href="login.html" class="btn-secondary">Login</a>
+                <a href="signup.php" class="btn-primary">Get Started</a>
+                <a href="login.php" class="btn-secondary">Login</a>
             </div>
         </div>
+
+
         <div class="hero-image">
-            <div class="image-box">
-           <img src="">
-                <p>Campus Illustration</p>
-            </div>
+         <div class="image-box">
+        <img src="campus.jpg" alt="Campus Illustration">
         </div>
+       </div>
+
+
     </section>
-    <!-- ================ FEATURES ================= -->
+
+    <!-- Explore Student Hub -->
     <section class="features">
         <h2>Explore Student Hub</h2>
+
         <div class="feature-container">
-            <div class="card">
+
+            <a href="courses.html" class="card">
                 <i class="fa-solid fa-book-open"></i>
                 <h3>Courses</h3>
-                <p> View all enrolled subjects,progress and course materials.
-                </p>
-            </div>
-            <div class="card">
+                <p>View enrolled subjects, progress and course materials.</p>
+            </a>
+
+            <a href="schedule.html" class="card">
                 <i class="fa-solid fa-calendar-days"></i>
                 <h3>Schedule</h3>
                 <p>Organize your weekly timetable and class timings.</p>
-            </div>
-            <div class="card">
+            </a>
+
+            <a href="assignments.html" class="card">
                 <i class="fa-solid fa-file-lines"></i>
                 <h3>Assignments</h3>
-                <p> Submit work before deadlines and keep track of progress.</p>
-            </div>
-            <div class="card">
+                <p>Keep track of assignments and their deadlines.</p>
+            </a>
+
+            <a href="resources.html" class="card">
                 <i class="fa-solid fa-book"></i>
                 <h3>Resources</h3>
-                <p>Download lecture notes, books and previous papers.</p>
-            </div>
+                <p>Access lecture notes, books and previous papers.</p>
+            </a>
+
+            <a href="secure_register.php" class="card">
+                <i class="fa-solid fa-user-shield"></i>
+                <h3>Secure Registration</h3>
+                <p>
+                    Register securely with password hashing
+                    and duplicate-email checks.
+                </p>
+            </a>
+
+            <a href="login.php" class="card">
+                <i class="fa-solid fa-lock"></i>
+                <h3>Secure Login</h3>
+                <p>
+                    Log in using session management
+                    and role-based access.
+                </p>
+            </a>
+
         </div>
     </section>
-    <!-- ================= WHY CHOOSE ================= -->
+
+    <!-- Why Choose Student Hub -->
     <section class="why">
         <h2>Why Choose Student Hub?</h2>
+
         <div class="why-container">
+
             <div class="why-card">
                 <i class="fa-solid fa-clock"></i>
                 <h3>Save Time</h3>
                 <p>All student services are available in one place.</p>
             </div>
+
             <div class="why-card">
                 <i class="fa-solid fa-users"></i>
                 <h3>Stay Connected</h3>
-                <p>Never miss announcements,workshops or campus events.</p>
+                <p>Keep up with announcements and campus activities.</p>
             </div>
+
             <div class="why-card">
                 <i class="fa-solid fa-chart-line"></i>
                 <h3>Track Progress</h3>
-                <p>Monitor assignments,attendance and academic growth. </p>
+                <p>Monitor your assignments and academic progress.</p>
             </div>
+
         </div>
     </section>
-    <!-- ================= QUOTE ================= -->
+
+    <!-- Inspirational Quote -->
     <section class="quote">
-        <blockquote>"Education is the most powerful weapon which you can use to change the world."</blockquote>
+        <blockquote>
+            "Education is the most powerful weapon which you can use
+            to change the world."
+        </blockquote>
+
         <h4>- Nelson Mandela</h4>
     </section>
-    <!-- ================= FOOTER ================= -->
+
+    <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <div>
+
+            <div class="footer-about">
                 <h3>Student Hub</h3>
-                <p>Making student life smarter,organized and productive. </p>
+                <p>
+                    Making student life smarter,
+                    organized and productive.
+                </p>
             </div>
-            <div>
+
+            <div class="footer-quick-links">
                 <h3>Quick Links</h3>
+
                 <ul>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="signup.html">Sign Up</a></li>
-                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.php">Login</a></li>
+                    <li><a href="signup.php">Sign Up</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="assignments.html">Assignments</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="secure_register.php">Secure Registration</a></li>
                 </ul>
             </div>
-            <div>
+
+            <div class="footer-contact">
                 <h3>Contact</h3>
-                <p>Email : studenthub@email.com</p>
-                <p>Phone : +91 98765 43210</p>
+                <p>Email: studenthub@email.com</p>
+                <p>Phone: +91 98765 43210</p>
             </div>
+
         </div>
+
         <hr>
-        <p class="copyright"> 2026 Student Hub.All Rights Reserved.</p>
+
+        <p class="copyright">
+            2026 Student Hub. All Rights Reserved.
+        </p>
     </footer>
+
 </body>
 </html>
-<!==jebeddiuywggijbwiuhhnnubucuinjufbhsdui
-jbuueubbjjjbjnhiu==!>

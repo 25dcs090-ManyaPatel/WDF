@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Hub | Practical 13</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body { padding: 25px; }
+        .api-box { max-width: 900px; margin: auto; }
+        .api-form { display: grid; gap: 12px; margin: 20px 0; }
+        .api-form input, .api-form textarea, .api-form select {
+            padding: 10px; width: 100%; box-sizing: border-box;
+        }
+        .api-form button, .event-item button {
+            padding: 9px 14px; cursor: pointer; margin: 4px;
+        }
+        .event-item { background: white; padding: 15px; margin: 12px 0;
+            border-radius: 8px; border: 1px solid #ddd; }
+        #message { margin: 12px 0; font-weight: bold; }
+    </style>
+</head>
+<body>
+<main class="api-box">
+    <h1>Practical 13: Event API</h1>
+    <p>Add, view, update and delete events without reloading the page.</p>
+
+    <div id="message" role="status"></div>
+
+    <form id="eventForm" class="api-form">
+        <input type="hidden" id="event_id">
+
+        <input id="title" placeholder="Event title" required>
+        <input id="category" placeholder="Category" required>
+        <input id="event_date" type="date" required>
+        <input id="location" placeholder="Location" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+
+        <select id="status">
+            <option value="Open">Open</option>
+            <option value="Closed">Closed</option>
+        </select>
+
+        <button type="submit">Save Event</button>
+        <button type="button" id="clearBtn">Clear Form</button>
+    </form>
+
+    <h2>Events List</h2>
+    <div id="eventList">Loading events...</div>
+</main>
+
+<script src="js/events-api.js"></script>
+</body>
+</html>
